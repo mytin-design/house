@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4pc;
+}
+:root {
+    --main-bkcolor-gray: gray;
+    --main-wincolor-purple: purple;
+
+}
+body {
+    width: 70%;
+    margin: 5pc auto;
+    border: .1pc solid;
+    height: 100vh;
+}
+
+/*styles for roof */
+.high-top {
+    margin: 3pc auto;
+    border: .1pc solid var(--main-bkcolor-gray);
+    width: 40%;
+}
+
+/* slant the line at x degrees*/
+.a-side {
+    border: .1pc solid var(--main-bkcolor-gray);
+    width: 20%;
+    transform: rotate(-45deg);
+    position: relative;
+    top: -2.5%;
+    left: 13%;
+
+}
+
+.b-side {
+    border: .1pc solid var(--main-bkcolor-gray);
+    width: 20%;
+    transform: rotate(45deg);
+    position: relative;
+    top: -2.8%;
+    left: 67%;
+}
+
+.low-top {
+    margin: .9pc auto;
+    border: .1pc solid var(--main-bkcolor-gray);
+    width: 68.3%;
+}
+
+
+/* end roof styles */
+
+/* start house body section */
+.l-height {
+    border: .1pc solid var(--main-bkcolor-gray);
+    width: 50%;
+    transform: rotate(90deg);
+    position: relative;
+    top: 15%;
+    left: -4%;
+}
+
+.l-bottom {
+    width: 70%;
+    border: .1pc solid var(--main-bkcolor-gray);
+    position: relative;
+    top: 32.5%;
+    left: 15%;
+}
+
+.r-height {
+    border: .1pc solid var(--main-bkcolor-gray);
+    width: 50%;
+    transform: rotate(90deg);
+    position: relative;
+    top: 14.5%;
+    left: 55%;
+}
+
+/* styles for door */
+
+.d-left {
+    border: .1pc solid var(--main-bkcolor-gray);
+    width: 25%;
+    transform: rotate(90deg);
+    position: relative;
+    top: 23%;
+    left: 44%;
+}
+
+.d-right {
+    border: .1pc solid var(--main-bkcolor-gray);
+    width: 25%;
+    transform: rotate(90deg);
+    position: relative;
+    top: 22.8%;
+    left: 64%;
+}
+
+.d-top {
+    border: .1pc solid var(--main-bkcolor-gray);
+    width: 20%;
+    position: relative;
+    top: 13.6%;
+    left: 56.2%;
+}
+
+/* styles for windows */
+.w-top {
+    width: 20%;
+    border: .1pc solid var(--main-wincolor-purple);
+    position: relative;
+    top: 2.5%;
+    left: 25%;
+}
+
+.w-left {
+    width: 20%;
+    border: .1pc solid var(--main-wincolor-purple);
+    position: relative;
+    top: 9.15%;
+    left: 15%;
+    transform: rotate(90deg);
+}
+
+.w-right {
+    width: 20%;
+    border: .1pc solid var(--main-wincolor-purple);
+    position: relative;
+    top: 8.9%;
+    left: 35%;
+    transform: rotate(90deg);
+}
+
+.w-bottom {
+    width: 20%;
+    border: .1pc solid var(--main-wincolor-purple);
+    position: relative;
+    top: 15.6%;
+    left: 25%;
+}
+
+/* Window panes  MarkUp */
+
+.h-pane {
+    width: 20%;
+    border: .1pc solid var(--main-wincolor-purple);
+    position: relative;
+    top: 8%;
+    left: 25%;
+    transform: rotate(90deg);
+}
+
+.v-pane {
+    width: 20%;
+    border: .1pc solid var(--main-wincolor-purple);
+    position: relative;
+    top: 8%;
+    left: 25%;
+}
